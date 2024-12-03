@@ -10,7 +10,7 @@
 		"indentStyle": "tab",
 		"indentWidth": 4,
 		"lineWidth": 140,
-		"ignore": ["node_modules", "dist", ".husky", "tsconfig.node.json", "tsconfig.app.json"]
+		"ignore": ["node_modules", "dist", ".husky", "tsconfig.node.json", "tsconfig.app.json", "build"]
 	},
 	"javascript": {
 		"formatter": {
@@ -40,13 +40,13 @@
 				"noUnusedVariables": "error"
 			}
 		},
-		"ignore": ["node_modules", "dist", ".husky", "tsconfig.node.json", "tsconfig.app.json"]
+		"ignore": ["node_modules", "dist", ".husky", "tsconfig.node.json", "tsconfig.app.json", "build"]
 	},
 	"organizeImports": {
 		"enabled": true
 	},
 	"files": {
 		"ignoreUnknown": true,
-		"ignore": ["node_modules", "dist", "tsconfig.node.json", "tsconfig.app.json"]
+		"ignore": ["node_modules", "dist", "tsconfig.node.json", "tsconfig.app.json", "build"]
 	}
 }
